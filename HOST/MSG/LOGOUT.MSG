@@ -1,0 +1,8 @@
+
+Access: \LOGIN - \TIME  (\LMIN min \LSEC sec)
+
+Thank you for your access. See you again.
+
+
+-- DISCONNECTED --
+

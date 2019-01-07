@@ -1,0 +1,35 @@
+
+INCLUDE	= ..\..\kernel;..\..\klib;..\..\mlib;ulib
+DLM0	= ..\..\klib\dlm0.obj
+DDM0	= ..\..\klib\ddm0.obj
+LIBS	= ulib\ulib.lib ..\..\mlib\mlib.lib ..\..\klib\klib.lib
+MKDM	= ..\..\tool\mkdm
+CFLAGS	= -mt! -c -1 -d -K -I$(INCLUDE)
+
+TARGET	= vcons.ddm mcd.ddm init.dlm pwatch.dlm tlimit.dlm aprio.dlm cstart.dlm loadconf.dlm loadflag.dlm loadcmd.dlm loadopt.dlm portinit.dlm sendinit.dlm flagedit.dlm textedit.dlm xsend.dlm ysend.dlm ybend.dlm xreceive.dlm yreceive.dlm greceive.dlm login.dlm shell.dlm who.dlm off.dlm ps.dlm useredit.dlm doscmd.dlm shutdown.dlm terminal.dlm version.dlm handle.dlm password.dlm log.dlm userlist.dlm upload.dlm download.dlm echo.dlm type.dlm expert.dlm power.dlm option.dlm board.dlm open.dlm edit.dlm setseque.dlm kill.dlm bbslist.dlm !.dlm chat.dlm
+
+.obj.ddm:
+	tlink -c -m $(DDM0) $&.obj,$&.bin,$&.map,$(LIBS);
+	$(MKDM) -d $&.bin $&.ddm
+	copy $&.ddm ..
+
+.obj.dlm:
+	tlink -c -m $(DLM0) $&.obj,$&.bin,$&.map,$(LIBS);
+	$(MKDM) -m $&.bin $&.dlm
+	copy $&.dlm ..
+
+all: $(TARGET) clean
+
+clean:
+	del *.bin
+	del *.map
+
+install:
+	copy *.ddm ..
+	copy *.dlm ..
+
+incbuild:
+	jperl incbuild.pl version.h > __ver.h
+	copy __ver.h version.h
+	del __ver.h
+

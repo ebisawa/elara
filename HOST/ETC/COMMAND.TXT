@@ -1,0 +1,39 @@
+# command
+!	 oooooooo:oooooooo:oooooooo:oooooooo
+bbslist	 oooooooo:oooooooo:oooooooo:oooooooo
+board	 --------:--------:oo------:--------
+chat	 oooooooo:oooooooo:oooooooo:oooooooo
+doscmd	 --------:--------:oo------:--------
+download --------:--------:oo------:--------
+echo	 oooooooo:oooooooo:oooooooo:oooooooo
+edit	 --------:--------:oo------:--------
+expert	 oooooooo:oooooooo:oooooooo:oooooooo
+handle	 oooooooo:oooooooo:oooooooo:oooooooo
+kill	 --------:--------:oo------:--------
+loadcmd	 --------:--------:oo------:--------
+loadconf --------:--------:oo------:--------
+loadflag --------:--------:oo------:--------
+loadopt  --------:--------:oo------:--------
+log	 --------:--------:oo------:--------
+off	 oooooooo:oooooooo:oooooooo:oooooooo
+open	 oooooooo:oooooooo:oooooooo:oooooooo
+option	 oooooooo:oooooooo:oooooooo:oooooooo
+password oooooooo:oooooooo:oo-ooooo:oooooooo
+power	 oooooooo:oooooooo:oooooooo:oooooooo
+ps	 --------:--------:oo------:--------
+setseque oooooooo:oooooooo:oooooooo:oooooooo
+shutdown --------:--------:oo------:--------
+terminal oooooooo:oooooooo:oooooooo:oooooooo
+type	 --------:--------:oo------:--------
+upload	 --------:--------:oo------:--------
+useredit --------:--------:oo------:--------
+userlist oooooooo:oooooooo:oooooooo:oooooooo
+version	 oooooooo:oooooooo:oooooooo:oooooooo
+who	 oooooooo:oooooooo:oooooooo:oooooooo
+
+# alias
+w	 oooooooo:oooooooo:oooooooo:oooooooo who
+whoami	 oooooooo:oooooooo:oooooooo:oooooooo type text\whoami.txt
+time	 oooooooo:oooooooo:oooooooo:oooooooo type text\time.txt
+new	 oooooooo:oooooooo:oooooooo:oooooooo open -s@ % *
+

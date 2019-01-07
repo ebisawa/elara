@@ -1,0 +1,9 @@
+AFLAGS	= /mx
+OBJS	= relcpu.obj exec.obj spawn.obj getpid.obj getppid.obj getname.obj getstat.obj getprio.obj setprio.obj getwait1.obj getwait2.obj getstack.obj getmuse.obj getargv.obj kill.obj exit.obj disp.obj shutdown.obj adddrv.obj deldrv.obj adddev.obj deldev.obj getuid.obj setuid.obj vsprintf.obj system.obj firstpid.obj nextpid.obj sleep.obj wakeup.obj wait.obj raise.obj malloc.obj free.obj xmalloc.obj xfree.obj open.obj close.obj read.obj write.obj seek.obj ioctl.obj getstdio.obj setstdio.obj mkdir.obj rmdir.obj time.obj localtim.obj ctime.obj getpflag.obj setpflag.obj fileno.obj sendmsg.obj recvmsg.obj checkmsg.obj remove.obj close2.obj procsw.obj rename.obj iolimit.obj mktime.obj
+
+all: dlm0.obj ddm0.obj klib.lib
+
+klib.lib : $(OBJS)
+	del klib.lib
+	lib @linkfile
+

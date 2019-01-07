@@ -1,0 +1,17 @@
+--------------------------------
+Your ID      : \ID
+Your Handle  : \HANDLE
+Port Speed   : \SPEED
+Your Modem   : \RATE
+Your Channel : on CHANNEL \CH
+Your Access  : # \ACCESS
+Total Count  : # \COMER
+Last Logout  : \LASTLOGOUT
+Last msgRead : \LASTREAD
+Msg Post     : \POST
+Upload       : \UPL
+Download     : \DOWNL
+Current Time : \DATE \TIME
+Used    Time : \LMIN min \LSEC sec
+Remain  Time : \REMAIN min
+--------------------------------

@@ -1,0 +1,40 @@
+
+・mkdm とは
+
+	EXE ファイルを Elara モジュール(dlm, ddm)に変換します。
+
+
+・使用方法
+
+	usage: mkdm [option] [infile] [outfile]
+
+	option:
+
+		-m   dlm モジュールを作成する
+		-d   ddm モジュールを作成する
+
+
+・map
+
+	カレントディレクトリに map ファイルがなければなりません。
+	例えば foo.exe を変換する場合は foo.map が必要です。
+
+
+・例
+
+	foo.exe を foo.dlm に変換する(foo.map が必要)。
+
+		mkdm -m foo.exe foo.dlm
+
+	bar.exe を bar.ddm に変換する(bar.map が必要)。
+
+		mkdm -d bar.exe bar.ddm
+
+
+・注意
+
+	EXE ヘッダに書いてある情報と MAP ファイルに書いてある情報が
+	異なる場合は警告を表示し、MAP ファイルを信用して処理を続行します。
+
+	数バイトの差が生じる場合がありますが、特に問題はないようです。
+

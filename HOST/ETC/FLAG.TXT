@@ -1,0 +1,41 @@
+# ==============================================
+#                        1         2         3
+#      (tlimit) 12345678901234567890123456789012
+# ==============================================
+gen	30	general
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+# ----------------------------------------------
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+# ==============================================
+sys	65535	sysop
+cos	65535	co-sysop
+gst	30	guest
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+# ----------------------------------------------
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+nul	0	dummy
+# ==============================================
+

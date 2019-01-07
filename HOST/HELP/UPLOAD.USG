@@ -1,0 +1,6 @@
+upload - ファイル受信
+
+usage: upload [filename]
+
+    指定されたファイルを受信(端末 -> ホスト)します。
+

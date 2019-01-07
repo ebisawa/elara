@@ -1,0 +1,4 @@
+ulib.lib /NOI
+y
+dopen.obj dopen2.obj ttext.obj dconnect.obj dcdevice.obj getuid_n.obj saveudat.obj killlock.obj nelems.obj nextelem.obj search_u.obj getuid_d.obj savl_nou.obj lastaces.obj savelfil.obj getchnum.obj savl_pre.obj savl_off.obj adtroff.obj str2farp.obj waitsec.obj waitmsg.obj lineon.obj lineoff.obj checkopt.obj search_b.obj save_bl.obj cputs.obj filecpyh.obj filecpyn.obj dispdate.obj disptime.obj lockbbs.obj ulockbbs.obj cquery.obj
+

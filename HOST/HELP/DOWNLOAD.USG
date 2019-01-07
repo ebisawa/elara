@@ -1,0 +1,6 @@
+download - ファイル送信
+
+usage: download [filename]
+
+    指定されたファイルを送信(ホスト->端末)します。
+

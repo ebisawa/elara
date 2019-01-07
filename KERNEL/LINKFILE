@@ -1,0 +1,5 @@
+a:\bin\bc\lib\c0c.obj +
+kernel.obj dosmem.obj proc.obj procsub.obj diskio.obj module.obj syscall.obj device.obj filesys.obj memory.obj
+elara.exe
+elara.map
+a:\bin\bc\lib\cc.lib

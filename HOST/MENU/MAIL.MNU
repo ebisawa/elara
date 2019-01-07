@@ -1,0 +1,10 @@
+MAIL
+postmail
+readmail
+deletema
+killmail
+lookreco
+multipos
+regmbox
+reggroup
+postmail -b

@@ -1,0 +1,3 @@
+Œ»ÝŽž : \DATE \TIME
+Žc‚èŽžŠÔ : \REMAIN•ª
+Œo‰ßŽžŠÔ : \LMIN•ª\LSEC•b

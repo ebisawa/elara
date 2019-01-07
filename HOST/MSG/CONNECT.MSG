@@ -1,0 +1,6 @@
+
+Welcome to Elara \VERSION
+Please enter your ID and password.
+
+If you are a guest user, use 'guest' as ID.
+

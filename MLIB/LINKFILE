@@ -1,0 +1,4 @@
+mlib.lib /NOI
+y
+setds.obj rstds.obj gets.obj sprintf.obj printf.obj strlen.obj strcpy.obj strchr.obj atou.obj query.obj getchar.obj puts.obj print.obj putchar.obj strcat.obj fgets.obj getc.obj chop.obj strcmp.obj memset.obj gets2.obj memcpy.obj filesize.obj ldiv.obj atol.obj lmul.obj strncmp.obj strlwr.obj getpid_n.obj strspl.obj strupr.obj atol2.obj strrchr.obj strstr.obj ungetch.obj gets3.obj wildcmp.obj fexist.obj stricmp.obj
+

@@ -1,0 +1,6 @@
+
+chkpw	 oooooooo:oooooooo:oo-ooooo:oooooooo
+chkdup	 oooooooo:oooooooo:oo-ooooo:oooooooo
+
+log_s	 --------:--------:oo------:--------
+

@@ -1,0 +1,10 @@
+CC = bcc
+AFLAGS = -mx -zd -zi
+CFLAGS = -mc -M -v -y -1 -d -K -O2
+OBJS = kernel.obj dosmem.obj proc.obj procsub.obj diskio.obj module.obj syscall.obj device.obj filesys.obj memory.obj
+
+elara.exe : $(OBJS)
+	tlink -c -m -l -v @linkfile
+	tdstrip -s elara.exe
+	copy elara.exe ..
+
